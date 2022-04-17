@@ -34,6 +34,11 @@
   width: 20px;
 }
 
+.record-spinner--md {
+  height: 64px;
+  width: 64px;
+}
+
 .record-spinner--lg {
   height: 100px;
   width: 100px;

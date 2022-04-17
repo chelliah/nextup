@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <NavBar />
-    <router-view class="container-fluid py-3 main-view" />
-  </div>
+  <NavBar />
+  <router-view id="view" class="container-fluid ps-3 ps-lg-1 pe-lg-0" />
 </template>
 
 <style lang="scss">
@@ -15,6 +13,22 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+#view {
+  position: absolute;
+  top: 4.5em;
+  left: 0;
+  bottom: 0;
 }
 
 h1,
@@ -95,6 +109,22 @@ button.btn-outline-chirp-red:hover {
 .numeral {
   font-family: "Times New Roman", Times, serif;
 }
+
+@media (max-width: 576px) {
+  .crate_item__duration,
+  .crate_item__details {
+    font-size: 0.9rem;
+  }
+
+  .crate_item__details {
+    word-break: break-word;
+  }
+
+  .crate_item__duration {
+    padding: 0;
+  }
+}
+
 </style>
 
 <script>

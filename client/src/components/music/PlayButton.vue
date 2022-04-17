@@ -1,7 +1,7 @@
 <template>
   <div v-if="onAir" class="btn-group">
     <button
-      class="btn btn-sm btn-outline-chirp-red play-button h-fit-content"
+      class="btn btn-sm btn-outline-chirp-red play-button h-fit-content w-75"
       data-reference="parent"
       :class="buttonClasses"
       :disabled="disabled"

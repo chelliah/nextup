@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column flex-md-row">
+  <div class="d-flex flex-column">
     <div class="d-flex flex-column flex-grow-1">
       <div class="mb-1">
         <ArtistLink :artist="element.artist" class="fw-bold me-2" />

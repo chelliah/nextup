@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="overflow-scroll">
     <div class="d-flex flex-column flex-sm-row align-items-sm-center mb-3">
       <h1 class="flex-grow-1">My Crates</h1>
       <button class="btn btn-chirp-red" @click="showModal">Add a crate</button>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid px-0 px-md-2">
+  <div class="px-0 px-md-2 h-100 overflow-scroll">
     <RecordSpinner v-if="loading" />
     <div class="px-6" v-if="!loading">
       <div class="row mb-3">

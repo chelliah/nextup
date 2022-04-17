@@ -46,7 +46,7 @@
             <component
               :is="getKind(element)"
               :element="element"
-              class="col crate_item__details"
+              class="col flex-md-row crate_item__details"
             />
             <div class="col-1">
               <button
@@ -115,21 +115,6 @@
 </template>
 
 <style>
-@media (max-width: 576px) {
-  .crate_item__duration,
-  .crate_item__details {
-    font-size: 0.9rem;
-  }
-
-  .crate_item__details {
-    word-break: break-word;
-  }
-
-  .crate_item__duration {
-    padding: 0;
-  }
-}
-
 .crate_item__handle {
   cursor: move;
 }
