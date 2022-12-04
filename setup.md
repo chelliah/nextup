@@ -130,6 +130,7 @@ Note: this import process will take over an hour to complete.
 
 ## Set up the front end
 Open a new Terminal window. From the /nextup/client directory, run the following commands:
+`nvm use 16`
 `npm install`
 `npm run dev`
 
